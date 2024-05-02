@@ -37,14 +37,11 @@ In VS Code, open just your project repository folder, e.g. Documents/streaming-0
 ## Verify Installations / Update Default Python
 
 In VS Code, open a terminal window (View / Terminal) and verify your software is installed and configured.
-
-- If Mac/Linux, the default terminal should work.
-- If Windows, be sure you're using a PowerShell terminal (rather than cmd).
+- If Windows, be sure you're using a GitBash terminal (rather than cmd). PowerShell will work on most machines, however this one has multiple processors, meaning GitBash.
 
 Important: 
 
-- If Mac/Linux, change `python` to `python3` in the commands below.
-- In Windows, you might try `py` instead of `python`.
+- In Windows, use `python`.
 - Type each command rather than copy & paste for best results. 
 - Wait for each command to complete before running the next command.
 
@@ -76,7 +73,6 @@ Use the terminal and the python command to execute the Python script.
 
 Important: 
 
-- If Mac/Linux, change `python` to `python3` in the commands below.
 - In Windows, you might try `py` instead of `python`.
 
 ```shell
@@ -105,8 +101,7 @@ Read the comments in the file to learn how to stop the process.
 
 Important: 
 
-- If Mac/Linux, change `python` to `python3` in the commands below.
-- In Windows, you might try `py` instead of `python`.
+- In Windows, use `python`.
 - Wait for each script to finish. Did you generate a new datafile? What is the name?
 
 ```shell
