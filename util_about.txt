@@ -2,7 +2,7 @@
 ======================================================================
 ======================================================================
  Welcome to the NW Python Debugging Information Utility!
- Date and Time: 2024-05-01 at 10:33 PM
+ Date and Time: 2024-05-03 at 06:56 PM
  Operating System: nt Windows 10
  System Architecture: 64bit
  Number of CPUs: 12
@@ -15,8 +15,8 @@
  Path to Interpreter:         C:\Users\Tower\anaconda3\envs\env\python.exe
  Path to virtual environment: C:\Users\Tower\anaconda3\envs\env
  Current Working Directory:   C:\Users\Tower\Documents\ACoffinCSIS44671\streaming-01-getting-started
- Path to source directory:    C:\Users\Tower\Documents\ACoffinCSIS44671\streaming-01-getting-started
- Path to script file:         C:\Users\Tower\Documents\ACoffinCSIS44671\streaming-01-getting-started\util_about.py
+ Path to source directory:    c:\Users\Tower\Documents\ACoffinCSIS44671\streaming-01-getting-started
+ Path to script file:         c:\Users\Tower\Documents\ACoffinCSIS44671\streaming-01-getting-started\util_about.py
  User's Home Directory:       C:\Users\Tower
  Terminal Environment:        VS Code
  Terminal Type:               cmd.exe
