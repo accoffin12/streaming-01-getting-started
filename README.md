@@ -1,8 +1,7 @@
 # streaming-01-getting-started
-## Student: Alex Coffin
-## Course: CSIS-44671-80
-### 2024-29-04
-
+**Student: Alex Coffin**
+* Course: CSIS-44671-80 *
+* 2024-29-04 *
 
 > Get started with Python for streaming analytics
 
@@ -10,10 +9,29 @@ We assume no prior programming experience and that you want to
 get productive as quickly as possible.
 
 This project uses only content from the Python Standard Library. 
-No project virtual environment is required. 
+No project virtual environment is required, however instructions to create a virtual enviroment are provided. This is included as a good practice to prevent complications between projects.
+Many projects have different package requriemetns as well as python version requirements. 
 
 These are popular industry tools - we'll practice with them a lot. 
 Getting good at them helps you build better analytics projects more efficiently. 
+
+## Files and Scripts Included:
+
+**Input Files**
+* CoffinConfimation.py
+* process_batch_A.py
+* process_batch_B.py
+* process_batch_C.py
+* process_streaming_0.py
+* until_about.py
+
+**Output Files**
+* batchfile_0_farenheit.csv
+* batchfile_1_celcius.csv
+* batchfile_2_ kelvin.csv
+* batchfile_3_fahrenheit.csv
+* unil_about.txt
+---
 
 ## Prerequisites
 
@@ -53,6 +71,17 @@ python --version
 python -m pip install --upgrade pip wheel
 ```
 
+## Creating an Enviroment Addendum
+For this particular project due to disk space issues a virtual enviroment was used. This virtual enviroment is called "env". The following are steps utilized to properlly create this enviroment. When attempting to use this repository on a local machine follow these steps to create an enviroment. I had an enviroment already created for this type of project in another class and chose to use it.
+
+1. Creating the enviroment:
+```python -m venv .venv \ ```
+
+2. Activate the enviroment:
+``` .venv\Scripts\activate ```
+
+3. Install the packages listed above.
+
 ✔️ Make sure all commands complete successfully. 
 If not, post your screenshots and the text of the error message in the discussion.
 They all must run successfully before continuing.
@@ -82,6 +111,7 @@ python util_about.py
 ✔️ Make sure your script runs successfully. 
 If not, post your screenshots and the text of the error message in the discussion.
 This script must run successfully before continuing. 
+
 ---
 
 

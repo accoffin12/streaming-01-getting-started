@@ -37,10 +37,10 @@ def convert_k_to_f(temp_k):
     """Converts Kelvin back to Fahrenheit.
     Utilizes both float and round functions to convert the string to a float.
     All CSV values are read as strings
-    When creating the round, be sure to place () correctly and indicated rounding 2 places.
+    When creating the round, be sure to place () correctly and indicated rounding to nearest place.
     """
     logging.debug(f"Calling convert_k_to_f() with {temp_k}.")
-    fahrenheit = round((1.8 * float(temp_k) - 271.15) + 32, 2)
+    fahrenheit = round((float(temp_k) - 273.15) * 1.8 + 32)
     logging.debug(f"Converted {temp_k}K to {fahrenheit}F.")
     return fahrenheit
 
