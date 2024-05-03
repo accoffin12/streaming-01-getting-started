@@ -1,7 +1,7 @@
 # streaming-01-getting-started
 **Student: Alex Coffin**
-* Course: CSIS-44671-80 *
-* 2024-29-04 *
+* Course: CSIS-44671-80 
+* 2024-29-04 
 
 > Get started with Python for streaming analytics
 
